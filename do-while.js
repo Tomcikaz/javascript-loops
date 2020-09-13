@@ -5,5 +5,5 @@ function getRandomNumber(upper) {
 let counter = 0;
 do {
 console.log ( `The random number is ${getRandomNumber(10)} !` );
-  counter += 1;
+  counter ++; // increment operator
 } while(counter < 10);
